@@ -1,0 +1,292 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+}
+.container{
+	width: 100%;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+}
+#slide img 	{
+	width: 100%;
+}
+header{
+	height: 100px;
+	background: #cb7802;
+	align-items: center;
+	display: flex;	
+}
+
+header h1{
+	text-align: center;
+	padding: 40px;
+	float: right;
+	font-size: 40px;
+	color: white;
+	width: 100%;
+}
+
+header img{
+	padding: 10px;
+	border-right: 1px solid darkred;
+}
+nav{
+	height: 35px;
+	background: #272f54;
+	margin-bottom: 5px;
+	align-items: center;
+}
+#menu{
+	width: 650px;
+	height: 40px;
+}
+ul.submenu{
+	padding: 10px;
+	width: 250px;
+	min-height: 50px;
+	margin-bottom: 10px;
+	list-style: none;
+	background: white;
+	line-height: 40px;
+	display: none;
+	position: absolute;
+}
+ul.submenu li{
+	font-family: sans-serif;
+	font-size: 14px;
+	color: rgb(66, 139, 202);
+	font-weight: bold;
+}
+
+ul.submenu li a{
+	font-family: sans-serif;
+	font-size: 14px;
+	color: black;
+}
+ul.submenu li ul.submenu2 li a{
+	font-family: sans-serif;
+	font-size: 14px;
+	color: black;
+}
+
+ul.root li{
+	list-style: none;
+	float: left;
+	position: relative;
+}
+ul.root li a{
+	text-decoration: none;
+	color: red;
+	padding: 0px 15px 0px 15px;
+	line-height: 35px;
+	display: block;
+	font-weight: bold;
+	border-right: 1px solid white;
+}
+
+ul.root li a:hover{
+	background: orange;
+	font-weight: bold;
+	color: white;
+	transition: ease-in 0.2s;
+}
+ul.root li:hover ul.submenu{
+	display: block;
+}
+
+ul.submenu li ul.submenu2 li a:hover{
+	background: orange;
+	font-weight: bold;
+	color: red;
+	transition: ease-in 0.2s;
+}
+nav .search{
+	line-height: 35px;
+	float: right;
+	margin-right: 25px;
+	align-items: center;
+}
+nav .search input{
+	width: 100px;
+	height: 25px;
+	font-size: 20px;
+	margin: 5px;
+}
+
+nav .search button{
+	height: 25px;
+	margin: 5px;
+	background: #272f54;
+	border: none;
+}
+nav .search button a{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 5px;
+	color: red;
+}
+nav .search button:hover {
+	border-bottom: 5px solid black;
+}
+nav .search button a:hover{
+	color: white;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.lichsuketquahoctap{
+	border-bottom: 1px solid #a4a4a4;  	
+    	padding: 0 0 3px 0;
+    	margin: 1px 0 15px 0;
+    	align-items: center;
+    	padding-left: 10px;
+    	
+}
+
+.lichsuketquahoctap h1{
+	font-family: Arial;
+    	font-size: 16px;
+    	color: #004275;
+}
+.button{
+	align-items: center;
+	display: flex;
+	justify-content: right;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.button .button1{
+	display: block;
+}
+.button .button2{
+	display: block;
+}
+
+.button .button1 button {
+	padding: 5px;
+}
+
+.button .button2 button {
+	padding: 5px;
+}
+
+.button .button1 a{
+	font-size: 16px;
+	color: black;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.button .button2 a{
+	font-size: 16px;
+	color: black;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.button .button1 :hover{
+	cursor: pointer;
+	background: orange;
+	color: white;
+}
+.button .button2 :hover{
+	cursor: pointer;
+	background: orange;
+	color: white;
+}
+#content .yeucau{
+	display: flex;
+	margin-left: -10px;
+	margin-right: -10px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px dotted #808080;
+	height: 30px;
+	align-items: center;
+	font-size: 14px;
+}
+#content .yeucau .tongsotinchi{
+	text-align: right;
+   	margin-bottom: 0;
+    	padding-top: 10px;
+    	display: flex;
+}
+#content .yeucau .tongsotinchi h1{
+	color: black;
+	font-size: 16px;
+	font-family: sans-serif;
+	padding: 4px 10px 0px;
+	margin-bottom: 8px;
+	padding-left: 50px;
+}
+#content .yeucau .tongsotinchi li{
+	color: black;
+	font-size: 16px;
+	font-family: sans-serif;
+	padding: 4px 10px 0px;
+	margin-bottom: 8px;
+	margin-right: 70px;
+}
+.table{
+	padding-top: 20px;
+}
+th{
+	font-size: 14px;
+	color: white;
+	background: #17a2b8;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+td{
+	font-size: 14px;
+	color: black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid brown;
+	border-top: 1px solid brown;
+	border-right: 1px solid brown;
+	border-left: 1px solid brown;
+}
+footer{
+	height: 130px;
+	background: #272f54;
+	display: flex;
+}
+footer .logokhoa{
+	align-items: center;
+}
+footer .logokhoa img{
+	width: 120px;
+	height: 120px;
+	align-items: center;
+	text-align: center;
+	margin: 5px;
+	display: block;
+}
+footer .hoten{
+	margin: 15px;
+	align-items: center;
+	text-align: center;
+	display: block;
+	padding-left: 70px;
+	line-height: 15px;
+	width: 100%;
+}
+footer .hoten h1{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 15px;
+}
+footer .hoten h2{
+	font-size: 16px;
+	font-weight: bold;
+	color: yellow;
+	margin-bottom: 15px;
+}

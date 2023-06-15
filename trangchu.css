@@ -1,0 +1,193 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+}
+.container{
+	width: auto;
+	margin: auto;
+}
+a{
+	text-decoration: none;
+}
+header{
+	height: 100px;
+	background: #cb7802;
+	align-items: center;
+	display: flex;	
+}
+
+header h1{
+	text-align: center;
+	padding: 40px;
+	float: right;
+	font-size: 40px;
+	color: white;
+	width: 100%;
+}
+
+header img{
+	padding: 5px;
+	border-right: 1px solid darkred;
+	align-items: left;
+}
+
+nav{
+	height: 35px;
+	background: #272f54;
+	margin-bottom: 5px;
+	align-items: center;
+}
+#menu{
+	width: 650px;
+	height: 40px;
+}
+ul.submenu{
+	padding: 10px;
+	width: 250px;
+	min-height: 50px;
+	margin-bottom: 10px;
+	list-style: none;
+	background: white;
+	line-height: 40px;
+	display: none;
+	position: absolute;
+}
+ul.submenu > li{
+	font-family: sans-serif;
+	font-size: 14px;
+	color: rgb(66, 139, 202);
+	font-weight: bold;
+}
+
+ul.submenu > li > a{
+	font-family: sans-serif;
+	font-size: 14px;
+	color: black;
+}
+ul.submenu li ul.submenu2 > li > a{
+	font-family: sans-serif;
+	font-size: 14px;
+	color: black;
+}
+
+ul.root li{
+	list-style: none;
+	float: left;
+	position: relative;
+}
+ul.root li a{
+	text-decoration: none;
+	color: red;
+	padding: 0px 15px 0px 15px;
+	line-height: 35px;
+	display: block;
+	font-weight: bold;
+	border-right: 1px solid white;
+}
+
+ul.root li a:hover{
+	background: orange;
+	font-weight: bold;
+	color: white;
+	transition: ease-in 0.2s;
+}
+ul.root li:hover ul.submenu{
+	display: block;
+}
+
+ul.submenu li ul.submenu2 li a:hover{
+	background: orange;
+	font-weight: bold;
+	color: red;
+	transition: ease-in 0.2s;
+}
+nav .search{
+	line-height: 35px;
+	float: right;
+	margin-right: 25px;
+	align-items: center;
+}
+nav .search input{
+	width: 100px;
+	height: 25px;
+	font-size: 20px;
+	margin: 5px;
+}
+
+nav .search button{
+	height: 25px;
+	margin: 5px;
+	background: #272f54;
+	border: none;
+}
+nav .search button a{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 5px;
+	color: red;
+}
+nav .search button:hover{
+	border-bottom: 2px solid black;
+}
+nav .search button a:hover{
+	color: white;
+}
+#slide img 	{
+	width: 100%;
+}
+
+h2{
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	border-bottom: dashed 2px;
+	color: #00008B;
+}
+p {
+	padding-left: 10px;
+}
+p a {
+	color: red;
+}
+footer{
+	height: 130px;
+	background: #272f54;
+	display: flex;
+}
+footer .logokhoa{
+	align-items: center;
+}
+footer .logokhoa img{
+	width: 120px;
+	height: 120px;
+	align-items: center;
+	text-align: center;
+	margin: 5px;
+	display: block;
+}
+footer .hoten{
+	width: auto;
+	margin: 15px;
+	align-items: center;
+	text-align: center;
+	display: block;
+	padding-left: 70px;
+	line-height: 15px;
+	width: 100%;
+}
+footer .hoten h1{
+	float: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 15px;
+}
+footer .hoten h3{
+	font-size: 16px;
+	font-weight: bold;
+	color: yellow;
+	margin-bottom: 15px;
+	align-items: center;
+	text-align: center;
+}
